@@ -1,0 +1,24 @@
+html.dark {
+  --text-color: #ffffff;
+  --icon-color: brightness(0) saturate(100%) invert(100%) sepia(100%)
+    saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+
+  --body-bg: #292e39;
+  --header-bg-color: #171c28;
+  --header-bg-mobile-color: #171c28;
+  --header-shadow: rgba(0, 0, 0, 0.2);
+  --top-art-group-bg-color: #292e39;
+  --top-art-group-color-shadow: rgba(0, 0, 0, 0.2);
+  --top-art-separate-bg-color: #ededf6;
+  --top-avatar-shadow: rgba(0, 0, 0, 0.08);
+
+  //   Dropdown
+  --dropdown-inner-bg-color: #383d4b;
+  --dropdown-inner-shadow: rgba(23, 28, 40, 0.4);
+  --top-menu-border-color: #171c28;
+  --menu-column-link: #0071dc;
+  --menu-column-icon-color: brightness(0) saturate(100%) invert(98%) sepia(1%)
+    saturate(4132%) hue-rotate(192deg) brightness(102%) contrast(97%);
+  --dropdown-arrow-color: brightness(0) saturate(100%) invert(17%) sepia(40%)
+    saturate(316%) hue-rotate(185deg) brightness(97%) contrast(82%);
+}
