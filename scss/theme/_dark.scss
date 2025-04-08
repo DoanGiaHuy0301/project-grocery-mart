@@ -21,4 +21,8 @@ html.dark {
     saturate(4132%) hue-rotate(192deg) brightness(102%) contrast(97%);
   --dropdown-arrow-color: brightness(0) saturate(100%) invert(17%) sepia(40%)
     saturate(316%) hue-rotate(185deg) brightness(97%) contrast(82%);
+
+  // Navbar
+  --navbar-bg-mobile: #292e39;
+  --navbar-shawdow-color: rgba(23, 28, 40, 0.40);
 }

@@ -26,9 +26,10 @@ button {
   background-color: transparent;
 }
 
-button, input, textarea, select {
+button, input, textarea, select, a {
     font-family: inherit;
     color: inherit;
+    -webkit-top-highlight-color: transperents;
 }
 
 .icon {
