@@ -1343,13 +1343,14 @@ html {
 
 .top-menu {
   --main-column-width: 292px;
+  --max-inner-height: calc(min(582px, 100vh - 128px) - var(--inner-padding) * 2);
   position: relative;
 }
 .top-menu__main {
   overflow-y: auto;
   scrollbar-width: none;
   width: var(--main-column-width);
-  height: calc(min(582px, 100vh - 128px) - var(--inner-padding) * 2);
+  height: var(--max-inner-height);
   border-right: 1px solid var(--top-menu-border-color);
 }
 
@@ -1405,10 +1406,10 @@ html {
   font-weight: 400;
   line-height: 1.42; /* 142.857% */
 }
-.menu-column__item:hover .sub-menu {
+.menu-column__item--active .sub-menu {
   display: grid;
 }
-.menu-column__item:hover > .menu-column__link {
+.menu-column__item--active > .menu-column__link, .menu-column__item:hover > .menu-column__link {
   color: var(--menu-column-link);
   font-weight: 500;
 }
@@ -1422,6 +1423,14 @@ html {
   padding-left: var(--inner-padding);
   overflow-y: auto;
   transition: all 0.5s ease;
+}
+.sub-menu--not-main {
+  position: initial;
+  inset: initial;
+  display: grid;
+  padding-left: 0;
+  grid-template-columns: repeat(4, 1fr);
+  height: var(--max-inner-height);
 }
 
 /*# sourceMappingURL=main.css.map */
