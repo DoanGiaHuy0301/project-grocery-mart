@@ -1,3 +1,5 @@
+@use "../abstracts";
+
 html {
   --text-color: #1a162e;
   --icon-color: brightness(0) saturate(100%) invert(7%) sepia(13%)
@@ -6,20 +8,29 @@ html {
   --body-bg: #f6f6f6;
   --header-bg-color: #eee;
   --header-bg-mobile-color: #fff;
-  --header-shadow: rgba(237, 237, 246, 0.20);
+  --header-shadow: rgba(237, 237, 246, 0.2);
   --top-art-group-bg-color: #fff;
   --top-art-group-color-shadow: rgba(237, 237, 246, 0.2);
   --top-art-separate-bg-color: #ededf6;
   --top-avatar-shadow: rgba(0, 0, 0, 0.08);
 
-//   Dropdown
+  //   Dropdown
   --dropdown-inner-bg-color: #fff;
   --dropdown-inner-shadow: rgba(200, 200, 200, 0.4);
-  --top-menu-border-color: #D2D1D6;
+  --top-menu-border-color: #d2d1d6;
 
   --menu-column-link: #0071dc;
 
   // navbar
-  --navbar-bg-mobile: #FFF;
-  --navbar-shawdow-color: rgba(200, 200, 200, 0.40);
+  --navbar-bg-mobile: #fff;
+  --navbar-shawdow-color: rgba(200, 200, 200, 0.4);
+
+  // Home categories
+  --cate-item-bg-color: #eee;
+  --cate-item-thumb-bg: #fff;
+  --cate-item-title-color: #000;
+
+  @include abstracts.screen(md) {
+    --cate-item-bg-color: #fff;
+  }
 }
