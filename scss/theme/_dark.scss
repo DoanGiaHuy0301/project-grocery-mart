@@ -27,14 +27,26 @@ html.dark {
   --navbar-shawdow-color: rgba(23, 28, 40, 0.4);
 
   // Home categories
-  --cate-item-bg-color: #171C28;
-  --cate-item-thumb-bg: #292E39;
-  --cate-item-title-color: #FFF;
+  --cate-item-bg-color: #171c28;
+  --cate-item-thumb-bg: #292e39;
+  --cate-item-title-color: #fff;
 
-    // Product
-    --filter-btn-color: #fff;
-    --filter-btn-bg: #171C28;
-    --product-card-bg: #171C28;
-    --product-card-shadow: rgba(0, 0, 0, 0.20);
-    --like-btn-shadow: rgba(124, 124, 124, 0.20);
+  // Product
+  --filter-btn-color: #fff;
+  --filter-btn-bg: #171c28;
+  --product-card-bg: #171c28;
+  --product-card-shadow: rgba(0, 0, 0, 0.2);
+  --like-btn-shadow: rgba(124, 124, 124, 0.2);
+
+  // Filter
+  --filter-form-bg: #383d4b;
+  --filter-form-shadow: rgba(0, 0, 0, 0.40);
+  --filter-select-tag-bg: #171C28;
+  --filter-arrow-color: brightness(0) saturate(100%) invert(17%) sepia(40%)
+  saturate(316%) hue-rotate(185deg) brightness(97%) contrast(82%);
+  --filter-footer-bg: #383d4b;
+
+    // Footer
+    --footer-bg-color: #171c28;
+    --footer-lg-bg-color: var(--header-bg-mobile-color);
 }
