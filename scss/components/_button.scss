@@ -1,3 +1,5 @@
+@use "../abstracts";
+
 // Filter Button
 .filter-btn {
   display: flex;
@@ -39,6 +41,10 @@
 
 // Button
 .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   height: 46px;
   padding: 0 20px;
   background: #f8f8fb;
@@ -47,24 +53,26 @@
   border-radius: 6px;
   user-select: none;
 
-  & + .btn {
-    margin-left: 20px;
+  + .btn {
+    &:not(.btn--no-margin) {
+      margin-left: 20px;
+    }
   }
 
   &--text {
-    color: #9E9DA8;
+    color: #9e9da8;
     background: transparent;
     font-weight: 400;
   }
 
   &--primary {
-    color: #1A162E;
-    background: #FFB700;
+    color: #1a162e;
+    background: #ffb700;
   }
 
   &--outline {
     background: transparent;
-    border: 1px solid #D2D1D6;
+    border: 1px solid #d2d1d6;
   }
 
   &--rounded {
