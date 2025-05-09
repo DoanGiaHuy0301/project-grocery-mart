@@ -51,6 +51,13 @@ html {
   --footer-bg-color: #eee;
   --footer-lg-bg-color: var(--header-bg-mobile-color);
 
-  // Sign Up 
-  --auth-content-bg: #FFF;
+  // Sign Up
+  --auth-content-bg: #fff;
+
+  @include abstracts.screen(md) {
+    --auth-intro-bg: #fff;
+  }
+
+  // Form
+  --form-placeholder-color: #d2d1d6;
 }
