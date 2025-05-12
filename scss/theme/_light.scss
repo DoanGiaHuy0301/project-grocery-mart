@@ -44,7 +44,7 @@ html {
   // Filter
   --filter-form-bg: #fff;
   --filter-form-shadow: rgba(200, 200, 200, 0.4);
-  --filter-select-tag-bg: #f8f8fb;
+  --select-tag-bg: #f8f8fb;
   --filter-footer-bg: #fff;
 
   // Footer
@@ -60,4 +60,27 @@ html {
 
   // Form
   --form-placeholder-color: #d2d1d6;
+
+  // Product detail
+  --product-detail-bg: #fff;
+  --product-detail-md-bg: #FAFAFD;
+  --breadcrumbs-bg: #f6f6f6;
+  --breadcrumbs-md-bg: #fff;
+  --breadcrumbs-shadow-color: rgba(237, 237, 246, 0.2);
+
+  --prod-info-heading-color: #1A162E;
+  --prod-info-card-color: #b9babe;
+  --prod-info-tax-color: #67b044;
+  --prod-info-tax-bg: Green/Green 20;
+  --prod-info-bg: #f6f6f6;
+  --prod-info-md-bg: #fff;
+
+  --prod-tag-bg: #ededf6;
+  --product-preview-bg: #fff;
+
+  // Search 
+  --search-bar-bg: #FFF;
+
+  // review
+  --review-card-bg: #fafafd;
 }

@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+* {
+  -webkit-tap-highlight-color: transperents;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -38,7 +42,7 @@ a {
   padding: 0;
   font-family: inherit;
   color: inherit;
-  -webkit-tap-highlight-color: transperents;
+
   outline: none;
   border: none;
 }
@@ -56,4 +60,15 @@ input {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--line-clamp, 2);
+  overflow: hidden;
+}
+
+.line-clamp.line-3 {
+  --line-clamp: 3;
 }

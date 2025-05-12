@@ -43,7 +43,7 @@ html.dark {
   // Filter
   --filter-form-bg: #383d4b;
   --filter-form-shadow: rgba(0, 0, 0, 0.4);
-  --filter-select-tag-bg: #171c28;
+  --select-tag-bg: #171c28;
   --filter-arrow-color: brightness(0) saturate(100%) invert(17%) sepia(40%)
     saturate(316%) hue-rotate(185deg) brightness(97%) contrast(82%);
   --filter-footer-bg: #383d4b;
@@ -53,11 +53,38 @@ html.dark {
   --footer-lg-bg-color: var(--header-bg-mobile-color);
 
   // Sign Up
-  --auth-content-bg: #292E39;
-  --auth-intro-bg: #171C28;
-  --auth-intro-text-color: #B9BABE;
-  --auth-heading-text-color: #B9BABE;
+  --auth-content-bg: #292e39;
+  --auth-intro-bg: #171c28;
+  --auth-intro-text-color: #b9babe;
+  --auth-heading-text-color: #b9babe;
 
   // Form
-  --form-placeholder-color: #D2D1D6;
+  --form-placeholder-color: #d2d1d6;
+
+  // Product detail
+  --product-detail-bg: #292e39;
+  --product-detail-md-bg: #292E39;
+
+  --breadcrumbs-bg: #171c28;
+  --breadcrumbs-shadow-color: rgba(23, 28, 40, 0.2);
+  --breadcrumbs-md-bg: #171C28;
+
+  --prod-info-heading-color: #B9BABE;
+  --prod-info-card-color: #b9babe;
+  --prod-info-tax-color: #67b044;
+  --prod-info-tax-bg: Green/Green 20;
+
+  --prod-info-bg: #171C28;
+  --prod-tag-bg: #292E39;
+  --prod-info-md-bg: #171C28;
+
+  --product-preview-bg: #171C28;
+
+  // Search
+  --search-bar-bg: #171C28;
+
+  --prod-text-color: #EEE;
+
+  // Review
+  --review-card-bg: #171C28;
 }
